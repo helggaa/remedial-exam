@@ -1,0 +1,65 @@
+.header{
+    float: left;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.kiri{
+    float: left;
+    padding: 10px;
+    width: 20%;
+}
+.kanan{
+    float: right;
+    padding: 15px;
+    width: 20%;
+}
+.tengah{
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+.footer{
+    float: left;
+    background-color: goldenrod;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+input{
+    width: 80%;
+    height: 30px;
+}
+.sub{
+    background-color: grey;
+}
+@media screen and (max-width :700px) {
+    .header{
+        background-color: purple;
+        padding: 10px;
+    }
+    .kiri{
+        width: 100%;
+        padding: 10px;
+        background-color: palevioletred;
+    }
+    .kanan{
+        float: left;
+        padding: 10px;
+        width: 100%;
+        background-color: palevioletred;
+    }
+    .tengah{
+        padding: 10px;
+        width: 100%;
+        background-color: palevioletred;
+    }
+    input{
+        width: 98%;
+        height: 25px;
+    }
+    
+}
